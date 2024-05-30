@@ -15,7 +15,7 @@ def clearing():
     clean_test_df = clean_data(test_df)
 
     # Remove duplicates from test that are present in train
-    # clean_test_df = remove_test_duplicates(clean_train_df, clean_test_df)
+    clean_test_df = remove_test_duplicates(clean_train_df, clean_test_df)
 
     # Save the cleaned DataFrames to new .parquet files
     clean_train_df.to_parquet(os.path.join(save_dir, 'clean_train.parquet'))
