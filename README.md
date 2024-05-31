@@ -1,10 +1,8 @@
-This is a template.
+# Claim&cited-paragraph classification
 
-# Experiment title 
-
-The corresponding <a href:=https://www.notion.so/Plan-of-Experiment-PoE-template-efed4153dd7849c5979e9abb00293ec0>Plan of Experiment is provided here</a>.
+The corresponding <a href:=https://www.notion.so/Early-baseline-for-claim-cited-paragraph-classification-on-PatentMatch-Herman-330f50f586f74779a19b32c304c0b3d0>Plan of Experiment is provided here</a>.
 \
-The <a href:=https://www.notion.so/Experiment-Report-Template-450e66b444c74039bd1beda4f6c226a9>Full Report</a> describing the effort is also available.
+The <a href:=https://www.notion.so/Report-Herman-Early-Baseline-PatentMatch-Paragraph-Classification-edd3d425261047a5a1633f2550d13f4c>Full Report</a> describing the effort is also available.
 
 ## Goal of the experiment
 Do provide project goal from the PoE document.

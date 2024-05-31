@@ -34,7 +34,7 @@ def clean_data(df):
         clean_df = df.dropna(subset=['text', 'text_b', 'label'])
         
         # Select the columns 'text', 'text_b', 'label'
-        selected_columns = clean_df[['text', 'text_b', 'label']]
+        selected_columns = clean_df[['text', 'text_b']]
         
         # Find duplicate rows based on the selected columns
         duplicates = selected_columns.duplicated(keep='first')
@@ -46,8 +46,8 @@ def clean_data(df):
 
 def remove_test_duplicates(train_df, test_df):
     # Create a key column to identify duplicates
-    train_df['key'] = train_df['text'] + train_df['text_b'] + train_df['label'].astype(str)
-    test_df['key'] = test_df['text'] + test_df['text_b'] + test_df['label'].astype(str)
+    train_df['key'] = train_df['text'] + train_df['text_b'].astype(str)
+    test_df['key'] = test_df['text'] + test_df['text_b'].astype(str)
 
     # Remove duplicates in test set that are present in train set
     clean_test_df = test_df[~test_df['key'].isin(train_df['key'])]
