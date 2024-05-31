@@ -1,5 +1,8 @@
 .env
+.venv
 artifacts/*
 !artifacts/.gitkeep
 mlruns/*
 !mlruns/.gitkeep
+.ipynb_checkpoints
+src/__pycache__
