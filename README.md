@@ -1,8 +1,8 @@
 # Claim&cited-paragraph classification
 
-The corresponding <a href:=https://www.notion.so/Early-baseline-for-claim-cited-paragraph-classification-on-PatentMatch-Herman-330f50f586f74779a19b32c304c0b3d0>Plan of Experiment is provided here</a>.
-\
-The <a href:=https://www.notion.so/Report-Herman-Early-Baseline-PatentMatch-Paragraph-Classification-edd3d425261047a5a1633f2550d13f4c>Full Report</a> describing the effort is also available.
+The corresponding <a href="https://www.notion.so/Early-baseline-for-claim-cited-paragraph-classification-on-PatentMatch-Herman-330f50f586f74779a19b32c304c0b3d0">Plan of Experiment is provided here</a>.
+The <a href="https://www.notion.so/Report-Herman-Early-Baseline-PatentMatch-Paragraph-Classification-edd3d425261047a5a1633f2550d13f4c">Full Report</a> describing the effort is also available.
+
 
 ## Goal of the experiment
 The primary objective of this experiment is to develop a model capable of accurately classifying 'X' citations within the PatentMatch dataset, as part of our effort to create a “prior art” search model. The task involves analyzing pairs of text segments (claims and related passages) to determine the binary classification label that indicates the presence of an 'X' citation, which signifies a critical piece of prior art.
